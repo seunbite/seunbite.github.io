@@ -1,5 +1,5 @@
 body {
-  font-family: "Vollkorn", serif;
+  font-family: "Pt Sans", sans-serif;
   color: #000000;
   background-color: #ffffff; }
 
@@ -16,7 +16,7 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-  color: #64EA9A;
+  color: #54ce84;
   text-decoration: none; }
 
 a:hover {

@@ -2,11 +2,11 @@
 ---
 
 $text-color: #000000;
-$anchor-text-color: #64EA9A
+$anchor-text-color: #54ce84; // Added a semicolon here
 $background-color: #ffffff;
 
 body {
-  font-family: "Vollkorn", serif;
+  font-family: "Pt Sans", sans-serif;
   color: $text-color;
   background-color: $background-color;
 }
