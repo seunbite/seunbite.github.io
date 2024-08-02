@@ -9,7 +9,7 @@ compass:
   # author will appear under the avatar (optional)
   author: "Seungbeen Lee"
   # tagline will appear under the title (optional)
-  tagline: "I explore advanced and sophisticated <a href='https://www.youtube.com/watch?v=xoSNx_5L398'>reward model</a> in a new AI brain."
+  tagline: "I explore advanced and sophisticated <a href='https://www.youtube.com/watch?v=xoSNx_5L398 target='_blank'>reward model</a> in a new AI brain."
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true
