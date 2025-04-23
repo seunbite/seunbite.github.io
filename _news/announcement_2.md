@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I go CMU as a government-funded visiting student (IITP) from September 2025 to February 2026! <ins>Exploring collaboration opportunities at CMU!</ins>
+I go CMU as a government-funded visiting student (IITP) from September 2025! Looking for collaboration opportunities at CMU! ✨

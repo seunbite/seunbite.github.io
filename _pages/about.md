@@ -15,7 +15,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-<a href="mailto:seungblee@yonsei.ac.kr">[E-mail]</a> <a href="https://github.com/seunbite">[Github]</a> <a href="https://scholar.google.com/citations?user=YdbC5yUAAAAJ&hl=ko">[Google Scholar]</a>
+<a href="mailto:seungblee@yonsei.ac.kr">[E-mail]</a> <a href="https://github.com/seunbite">[Github]</a> <a href="https://scholar.google.com/citations?user=YdbC5yUAAAAJ&hl=ko">[Google Scholar]</a> <a href="/assets/cv/Seungbeen-CV.pdf" download>[CV]</a>
 
 
 Hello, I’m Seungbeen Lee, currently in my master’s degree at Yonsei University advised by Professor [Youngjae Yu](https://scholar.google.com/citations?user=WDO24ZYAAAAJ&hl=ko&oi=ao). I completed my undergraduate studies in `Psychology` and `Economics` in Yonsei University.  I still love discussing about [Personality Psychology](https://en.wikipedia.org/wiki/Personality_psychology), [Social Psychology](https://www.youtube.com/watch?v=meiU6TxysCg), and [Game Theory](https://www.youtube.com/watch?v=iLX_r_WPrIw). I’ve always been fascinated by modeling human decision-making, and I graduated with the insight that humans are beings most significantly influenced by the presence and decision-making of others.
