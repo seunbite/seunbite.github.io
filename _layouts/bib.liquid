@@ -147,7 +147,19 @@
 
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
+          {% if entry.note %}
+    <div class="badge badge-info mt-1">
+      <i class="fa fa-star"></i>
+      {% if entry.featured_link %}
+        <a href="{{ entry.featured_link }}" target="_blank" style="color: inherit;">{{ entry.note }}</a>
+      {% else %}
+        {{ entry.note }}
+      {% endif %}
+    </div>
+  {% endif %}
+  
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
+
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
@@ -177,10 +189,7 @@
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
-    </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+
 
     <!-- Links/Buttons -->
     <div class="links">
