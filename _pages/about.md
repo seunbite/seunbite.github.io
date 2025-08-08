@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: (Currently at CMU) M.S Student, Yonsei University
+subtitle: Visiting Student, CMU / M.S Student, Yonsei University
 
 profile:
   align: right
