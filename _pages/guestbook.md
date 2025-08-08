@@ -2,13 +2,13 @@
 layout: page
 title: "guestbook"
 permalink: /guestbook/
+nav: true
+nav_order: 3
 ---
 
-Hi, there! Let me here you.
-- Who are you?
+Hi! Let me hear you.
 - What brought you here?
 - What are you interested in?
-
 
 <div id="cusdis_thread"
   data-host="https://cusdis.com"
