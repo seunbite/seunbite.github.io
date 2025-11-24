@@ -2,7 +2,7 @@
 layout: page
 title: "guestbook"
 permalink: /guestbook/
-nav: true
+nav: false
 nav_order: 3
 ---
 
