@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I go to CMU as a government-funded visiting student (IITP) from August 17! ✨
+I go to CMU as a government-funded visiting student (IITP) from August 17! ✨ Lucky to collaborate with professor Jean Oh and professor Yonatan Bisk.
