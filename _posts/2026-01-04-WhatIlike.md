@@ -14,11 +14,10 @@ Like
 - Cute robots
 - People with non-human friends
 - Classic watch
-- Stars
 - Flan
 - K-food (This is a given. I can talk about this for 5 days)
 - Axolotl (The cutest)
-- Movie with a nice plot (I like the pose-traumatic growth. Share me your favorite!)
+- Movie with a nice plot (I like the post-traumatic growth. Share me your favorite!)
 - Personality Talk (I studied psychology but I like to talk about MBTI the shit. Sorry. I really like the environment to freely talk about themselves and their personality. I also like the story of getting-to-know of both extremes.)
 - Evolutionary psychology (lowkey)
 
