@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "guestbook"
+title: "Guestbook"
 permalink: /guestbook/
 nav: false
 nav_order: 3
@@ -28,5 +28,4 @@ Hi! Let me hear you.
   setCusdisTheme();
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setCusdisTheme);
 </script>
-
 

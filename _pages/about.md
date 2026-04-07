@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Visiting Student, CMU / M.S Student, Yonsei University
 
@@ -15,10 +15,10 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-<a href="mailto:seungbel@andrew.cmu.edu">[E-mail]</a> <a href="https://github.com/seunbite">[Github]</a> <a href="https://scholar.google.com/citations?user=YdbC5yUAAAAJ&hl=ko">[Google Scholar]</a> <a href="https://drive.google.com/file/d/1s8tbS1gw3M_tFigGhVzR26TfTFWNUgxi/view?usp=sharing">[CV]</a>
+<a href="mailto:seungbel@andrew.cmu.edu">[E-mail]</a> <a href="https://github.com/seunbite">[Github]</a> <a href="https://scholar.google.com/citations?user=YdbC5yUAAAAJ&hl=ko">[Google Scholar]</a> <a href="https://drive.google.com/file/d/19wwMTqJpTw68Qdyzwq9xreuHaG3r0ROt/view?usp=sharing">[CV]</a>
 
 
-Hello, I’m Seungbeen (Been), an MS student at Yonsei University advised by [Youngjae Yu](https://scholar.google.com/citations?user=WDO24ZYAAAAJ&hl=ko&oi=ao). I studied `Psychology` and `Economics` during my undergraduates at Yonsei.  I still love discussing about [Personality Psychology](https://en.wikipedia.org/wiki/Personality_psychology), [Social Psychology](https://www.youtube.com/watch?v=meiU6TxysCg), and [Game Theory](https://www.youtube.com/watch?v=iLX_r_WPrIw). I’ve always been fascinated by modeling human decision-making, and have insights that humans are significantly influenced by the presence and decision-making of others.
+Hello, I’m Seungbeen, an MS student at Yonsei University advised by [Youngjae Yu](https://scholar.google.com/citations?user=WDO24ZYAAAAJ&hl=ko&oi=ao). I studied `Psychology` and `Economics` during my undergraduates at Yonsei.  I still love discussing about [Personality Psychology](https://en.wikipedia.org/wiki/Personality_psychology), [Social Psychology](https://www.youtube.com/watch?v=meiU6TxysCg), and [Game Theory](https://www.youtube.com/watch?v=iLX_r_WPrIw). I’ve always been fascinated by modeling human decision-making, and have insights that humans are significantly influenced by the presence and decision-making of others.
 
 I’m interested in human-like decision making in AI. I’m sure that highly sophisticated AI can `fulfill fundamental social needs of human`. Right now, they’re just slightly incapable, like the language models of the 2010s. I'm interested in these research topics:
 

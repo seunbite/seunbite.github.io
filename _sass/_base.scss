@@ -730,6 +730,7 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
+        width: 100%;
       }
 
       .abbr {
@@ -739,6 +740,13 @@ footer.sticky-bottom {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
+
+          &.current-year {
+            background-color: #25D34E !important;
+            color: white;
+            border: none;
+            box-shadow: none;
+          }
 
           a {
             color: white;
@@ -757,6 +765,17 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+
+        a {
+          color: inherit;
+          text-decoration: none;
+          text-decoration-thickness: 1px;
+          text-underline-offset: 0.14em;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
       }
 
       .author {
