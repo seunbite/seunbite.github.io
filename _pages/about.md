@@ -9,7 +9,7 @@ profile:
   image: self.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p> seungbel@andrew.cmu.edu</p>
+    <p><span class="profile-email-highlight">seungbel@andrew.cmu.edu</span></p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

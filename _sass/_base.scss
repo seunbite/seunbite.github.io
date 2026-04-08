@@ -49,6 +49,10 @@ table.table a {
   }
 }
 
+.profile-email-highlight {
+  color: var(--global-text-color-light);
+}
+
 .table-dark {
   background-color: transparent;
   &.table-bordered {
@@ -885,6 +889,27 @@ footer.sticky-bottom {
     }
     div.award.hidden.open {
       border-color: var(--global-highlight-color);
+    }
+  }
+}
+
+.news {
+  color: var(--global-text-color);
+
+  th,
+  td,
+  p,
+  span,
+  div {
+    color: var(--global-text-color);
+  }
+
+  a,
+  a.news-title {
+    color: var(--global-theme-color);
+
+    &:hover {
+      color: var(--global-theme-color);
     }
   }
 }

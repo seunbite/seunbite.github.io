@@ -165,6 +165,43 @@
       {% endif %}
     </div>
 
+    {% if entry.html or entry.dataset or entry.github %}
+      <div class="links">
+        {% if entry.html %}
+          {% if entry.html contains '://' %}
+            <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">Project</a>
+          {% else %}
+            <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Project</a>
+          {% endif %}
+        {% endif %}
+        {% if entry.dataset %}
+          {% if entry.dataset contains '://' %}
+            <a href="{{ entry.dataset }}" class="btn btn-sm z-depth-0" role="button">Data</a>
+          {% else %}
+            <a href="{{ entry.dataset | relative_url }}" class="btn btn-sm z-depth-0" role="button">Data</a>
+          {% endif %}
+        {% endif %}
+        {% if entry.github %}
+          {% if entry.github contains '://' %}
+            <a href="{{ entry.github }}" class="btn btn-sm z-depth-0" role="button">GitHub</a>
+          {% else %}
+            <a href="{{ entry.github | relative_url }}" class="btn btn-sm z-depth-0" role="button">GitHub</a>
+          {% endif %}
+        {% endif %}
+      </div>
+    {% endif %}
+
+    {% if entry.note %}
+      <div class="badge badge-info mt-1">
+        <i class="fa fa-star"></i>
+        {% if entry.featured_link %}
+          <a href="{{ entry.featured_link }}" target="_blank" style="color: inherit;">{{ entry.note }}</a>
+        {% else %}
+          {{ entry.note }}
+        {% endif %}
+      </div>
+    {% endif %}
+
     {% if entry.award %}
       <!-- Hidden Award block -->
       <div class="award hidden d-print-inline">
