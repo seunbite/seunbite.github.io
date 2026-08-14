@@ -1,0 +1,36 @@
+<div class="interactive-profile" data-interactive-profile>
+  <div class="interactive-profile__stage">
+    <canvas
+      class="interactive-profile__canvas"
+      width="360"
+      height="430"
+      tabindex="0"
+      role="img"
+      aria-label="An interactive line drawing of a human and a robot. Move the human head with your pointer to meet the robot's gaze. Arrow keys also control the human head."
+    ></canvas>
+    <img
+      class="interactive-profile__photo"
+      src="{{ include.image | prepend: '/assets/img/' | relative_url | bust_file_cache }}"
+      alt="Portrait of Seungbeen"
+      width="1124"
+      height="1548"
+      hidden
+    >
+    <div class="interactive-profile__score" aria-live="polite" aria-atomic="true">
+      <span aria-hidden="true">◉</span>
+      <span data-profile-score>0</span>
+    </div>
+    <p class="interactive-profile__hint" data-profile-hint>move the human to meet the robot's gaze</p>
+    <div class="interactive-profile__finish" data-profile-finish role="status" hidden>
+      <p>You did it—100 moments of mutual gaze.</p>
+      <p>Now meet the ideas behind the interaction.</p>
+    </div>
+  </div>
+  <button class="interactive-profile__toggle" type="button" data-profile-toggle aria-pressed="false">
+    My profile photo
+  </button>
+  <noscript>
+    <img class="interactive-profile__fallback" src="{{ include.image | prepend: '/assets/img/' | relative_url }}" alt="Portrait of Seungbeen">
+  </noscript>
+</div>
+<script defer src="{{ '/assets/js/interactive-profile.js' | relative_url | bust_file_cache }}"></script>

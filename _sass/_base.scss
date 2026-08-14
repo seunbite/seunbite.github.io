@@ -50,7 +50,7 @@ table.table a {
 }
 
 .profile-email-highlight {
-  color: var(--global-text-color-light);
+  color: var(--global-text-color);
 }
 
 .table-dark {
@@ -217,6 +217,154 @@ ul.task-list input[type="checkbox"] {
 
 .profile.float-left {
   margin-right: 1rem;
+}
+
+// Interactive portrait on the about page
+.interactive-profile {
+  --portrait-border: color-mix(in srgb, var(--global-text-color) 72%, transparent);
+  width: 100%;
+  max-width: 320px;
+  margin-left: auto;
+}
+
+.interactive-profile__stage {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 360 / 430;
+  border: 1px solid var(--portrait-border);
+  border-radius: 2px;
+  background: var(--global-bg-color);
+}
+
+.interactive-profile__canvas,
+.interactive-profile__photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.interactive-profile__canvas {
+  cursor: crosshair;
+  outline: 0;
+
+  &:focus-visible {
+    box-shadow: inset 0 0 0 3px var(--global-text-color);
+  }
+}
+
+.interactive-profile__photo {
+  object-fit: cover;
+}
+
+.interactive-profile__photo[hidden],
+.interactive-profile__canvas[hidden],
+.interactive-profile__score[hidden],
+.interactive-profile__hint[hidden],
+.interactive-profile__finish[hidden] {
+  display: none;
+}
+
+.interactive-profile__finish {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 8px solid transparent;
+  background: color-mix(in srgb, var(--global-bg-color) 92%, transparent);
+  text-align: center;
+
+  p {
+    max-width: 230px;
+    margin: 0;
+    font: 600 0.78rem/1.5 monospace;
+  }
+
+  p + p {
+    margin-top: 0.65rem;
+    color: var(--global-text-color-light);
+    font-weight: 400;
+  }
+}
+
+.interactive-profile.is-complete .interactive-profile__canvas {
+  opacity: 0.18;
+}
+
+.interactive-profile__score {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  min-width: 48px;
+  padding: 5px 8px;
+  border: 1px solid var(--global-text-color);
+  border-radius: 999px;
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
+  font: 600 0.72rem/1 monospace;
+}
+
+.interactive-profile__hint {
+  position: absolute;
+  bottom: 9px;
+  left: 50%;
+  width: max-content;
+  max-width: calc(100% - 24px);
+  margin: 0;
+  padding: 4px 7px;
+  transform: translateX(-50%);
+  border: 1px solid var(--global-text-color);
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
+  font: 0.64rem/1.2 monospace;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+}
+
+.interactive-profile__toggle {
+  width: 100%;
+  margin-top: 8px;
+  padding: 7px 10px;
+  border: 1px solid var(--global-text-color);
+  border-radius: 2px;
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
+  font: 0.72rem/1.2 monospace;
+  letter-spacing: 0.02em;
+  transition:
+    color 150ms ease,
+    background-color 150ms ease;
+
+  &:hover,
+  &:focus-visible {
+    color: var(--global-bg-color);
+    background: var(--global-text-color);
+    outline: 0;
+  }
+}
+
+.interactive-profile__fallback {
+  width: 100%;
+  margin-top: 8px;
+  border: 1px solid var(--global-text-color);
+}
+
+@media (min-width: 576px) {
+  .profile:has(.interactive-profile) {
+    width: 35%;
+  }
+}
+
+@media (max-width: 575px) {
+  .interactive-profile {
+    margin: 0 auto 1.5rem;
+  }
 }
 
 @media (min-width: 576px) {
@@ -746,10 +894,14 @@ footer.sticky-bottom {
           margin-bottom: 0.5rem;
 
           &.current-year {
-            background-color: #25D34E !important;
-            color: white;
-            border: none;
+            background-color: var(--global-bg-color) !important;
+            color: $black-color !important;
+            border: 1px solid var(--global-text-color);
             box-shadow: none;
+
+            a {
+              color: $black-color !important;
+            }
           }
 
           a {

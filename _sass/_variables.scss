@@ -9,17 +9,17 @@
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
 $orange-color: #f29105 !default;
-$blue-color: #0076df !default;
-$blue-color-dark: #00369f !default;
-$cyan-color: #2698ba !default;
-$light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
-$green-color: #00ab37 !default;
-$green-color-lime: #b7d12a !default;
-$green-color-dark: #009f06 !default;
-$green-color-light: #ddffdd !default;
-$green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
-$light-purple-color: color.adjust($purple-color, $lightness: 25%);
+$blue-color: #111111 !default;
+$blue-color-dark: #000000 !default;
+$cyan-color: #f2f2f2 !default;
+$light-cyan-color: #d8d8d8 !default;
+$green-color: #ffffff !default;
+$green-color-lime: #eeeeee !default;
+$green-color-dark: #c7c7c7 !default;
+$green-color-light: #f7f7f7 !default;
+$green-color-bright: #ffffff !default;
+$purple-color: #777777 !default;
+$light-purple-color: #d8d8d8 !default;
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
@@ -34,7 +34,7 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: #f1f1f1;
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
