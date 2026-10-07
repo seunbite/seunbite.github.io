@@ -12,7 +12,7 @@ profile:
   more_info: >
     <p><span class="profile-email-highlight">seungbel@andrew.cmu.edu</span></p>
 
-news: false # hides the news section on the homepage
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
